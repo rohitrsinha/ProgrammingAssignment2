@@ -1,7 +1,7 @@
 ## This is Programming Assignment 2: Lexical Scoping
-## functions do
 
-## Write a short comment describing this function
+## This function is a constructor that returns a matrix object
+## with set and get functions.
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -18,7 +18,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function will takes input as matrix object and return inverse of
+## matrix and cache the matrix inverse. It reurns cached inverse matrix on
+## subsiquent calls.
 
 cacheSolve <- function(x, ...) {
         inv <- x$getinverse()
